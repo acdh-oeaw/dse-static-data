@@ -9,6 +9,9 @@ for x in dirs:
 doc = TeiReader("https://karl-kraus.github.io/legalkraus-static/D_000002-003-000.xml")
 
 
+base = doc.any_xpath("//tei:TEI")[0]
+del base.attrib["prev"]
+
 for x in doc.any_xpath(".//tei:lb | .//tei:p | .//tei:pb"):
     try:
         del x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
