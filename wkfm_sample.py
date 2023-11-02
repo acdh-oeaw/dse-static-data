@@ -2,6 +2,8 @@ import os
 from acdh_tei_pyutils.utils import TeiReader
 
 doc = TeiReader("https://donauhandel.github.io/wkfm-static/wkfm-0023.xml")
+base = doc.any_xpath("//tei:TEI")[0]
+del base.attrib["next"]
 data_dir = "data"
 
 url_prefix = "https://id.acdh.oeaw.ac.at/wkfm/"
