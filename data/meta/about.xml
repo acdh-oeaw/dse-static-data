@@ -3,7 +3,7 @@
         <fileDesc>
            <titleStmt>
               <title type="main">Über das Projekt</title>
-              <title type="sub">{{cookiecutter.project_title}}</title>
+              <title type="sub">Irgendein Untertitel</title>
            </titleStmt>
            <publicationStmt>
               <p>Publication Information</p>
