@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/dse-static" xml:id="D_000002-003-000.xml" next="https://id.acdh.oeaw.ac.at/dse-static/L041464.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://acdh-oeaw.github.io/dse-static-cookiecutter" xml:id="D_000002-003-000.xml" next="https://acdh-oeaw.github.io/dse-static-cookiecutter/L041464.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>

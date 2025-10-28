@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://acdh-oeaw.github.io/dse-static-cookiecutter" xml:id="about.xml">
     <teiHeader>
         <fileDesc>
            <titleStmt>
@@ -27,4 +28,3 @@
         </body>
     </text>
   </TEI>
-  
